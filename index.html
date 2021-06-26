@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>PORTFOLIO</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>UNIVERSITY ASSIGNMENT</h2>
+
+<header>
+  <h2>PORTFOLIO OF ARSLAN NISAR</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">HOME </a></li>
+      <li><a href="C:\Users\Arsal\Desktop\portfolio website/biography.html" target="biography">BIOGRAPHY</a></li>
+      <li><a href="C:\Users\Arsal\Desktop\portfolio website/education.html" target="education">EDUCATION</a></li>
+	  <li><a href="C:\Users\Arsal\Desktop\portfolio website/expertise .html" target="expertise ">EXPERTISE</a></li>
+	  <li><a href="C:\Users\Arsal\Desktop\portfolio website/hobbies.html" target="hobbies ">HOBBIES</a></li>
+	  <li><a href="C:\Users\Arsal\Desktop\portfolio website/mywork.html" target="mywork ">MY work</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+  <img src="1.jpg" alt="Trulli" width="250" height="280" align="right">
+    <h1>ARSLAN NISAR </h1>
+    <p>Arslan nisar is the Student of sindh uni in Information and comunication and technology department (IICT) .</p>
+    <p>HE is in third year he is (web developer) and (graphic designer) and he can solve problems regarding computer systems easily He is expert in (MS OFFICE) </p>
+  <p> HE Has Also started Freelancing so you can contact him and get services from him </p>
+  <p> He is also approching cyber security and the work is in progress in this field of (IT)
+  </article>
+</section>
+
+<footer>
+  <p>creator: ARSLAN NISAR</p>  <br>
+  <p> contact#03120301309</p><br>
+  <a href="malanaarsal@gmail.com">malanaarsal@gmail.com</a></p>
+</footer>
+
+</body>
+</html>

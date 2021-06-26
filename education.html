@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CV</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<h2> CV</h2>
+<p>In this web page i have created my curiiculam vitae (CV).</p>
+
+
+
+<section>
+<img src="1.jpg" alt="Italian Trulli">
+  <nav>
+    <ul>
+      <li><a href="#">NAME= ARSLAN</a></li>
+      <li><a href="#">AGE= 21</a></li>
+      <li><a href="#">location= kotri sindh pakistan</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>EARLY EDUCATION</h1>
+    <p>I have done my early education primary and matriculaton from <b>BLUE BIRD HIGH SCHOOL KOTRI DISTRICT JAMSHORO SINDH.</b>with a good character certificate and marks having  75.76 percentage</p>
+    <p>I have done my INTERMEDIATE (FSC) from <b>HIAST COLLEGE LATIFABAD Hyderabad</b></p>
+	<table>
+  <tr>
+    <th>class</th>
+    <th>institute </th>
+    <th>marks obtain</th>
+	<th>total marks</th>
+	<th>percentage%</th>
+  </tr>
+    <tr>
+    <td>matriculation</td>
+    <td>BLUE BIRD HIGH SCHOOL KOTRI</td>
+    <td> 644 </td>
+	<td>850<t/d>
+	<td>75.75% </td>
+  </tr>
+  <tr>
+    <td>Intermediate FSC</td>
+    <td>Hiast college LATIFABAD hyderabad</td>
+    <td>807</td>
+	<td>1100</td>
+	<td>73.36%</td>
+  </tr>
+  <p>NOW iam studying in sindh uni jamshoro in (IICT) department in 3rd year </p>
+  </article>
+</section>
+
+<footer>
+  <p>marksheets</p>
+</footer>
+
+</body>
+</html>
